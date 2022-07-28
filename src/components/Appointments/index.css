@@ -1,0 +1,98 @@
+.bg {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-container {
+  display: flex;
+}
+.card {
+  background-color: #ffffff;
+  height: 500px;
+  width: 900px;
+  border-radius: 15px;
+}
+.input-reading-container {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  height: 200px;
+}
+
+.appointment-form-container {
+  display: flex;
+  flex-direction: column;
+}
+.img {
+  margin-left: 100px;
+  height: 200px;
+  width: 300px;
+  margin-top: 80px;
+}
+
+.input {
+  height: 30px;
+  outline: 0;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+.date {
+  margin-top: 20px;
+  height: 30px;
+  outline: 0;
+}
+.btn {
+  height: 40px;
+  width: 80px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  background-color: #8b5cf6;
+  color: #dee0e3;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.title {
+  margin: 0;
+  padding: 0;
+}
+.appointment-title {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  color: #171f46;
+}
+.below-container {
+  padding-left: 50px;
+  margin: 0;
+}
+.star-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+.stared {
+  background-color: transparent;
+  border: 1px solid #171f46;
+  color: #171f46;
+  font-weight: 600;
+  border-radius: 10px;
+  margin-right: 30px;
+  height: 27px;
+  width: 70px;
+}
+.ul {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+}
+.title-label {
+  padding: 0;
+  margin: 0;
+  margin-top: 8px;
+  font-weight: 500;
+}

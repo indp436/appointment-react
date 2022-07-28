@@ -1,0 +1,41 @@
+.appointment-box {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 60px;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.title {
+  padding: 0;
+  margin: 0;
+  font-weight: 500;
+  color: #171f46;
+}
+.formattedDate {
+  padding: 0;
+  margin: 0;
+  color: #b5b7c4;
+  font-size: 15px;
+  font-weight: 500;
+}
+.star {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+.starbtn {
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  outline: 0;
+}
